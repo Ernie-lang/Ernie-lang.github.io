@@ -1,0 +1,20 @@
+@"
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ernie-lang.github.io/</loc>
+    <lastmod>2025-05-27</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ernie-lang.github.io/event.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ernie-lang.github.io/reviews.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+"@ | Out-File -FilePath "sitemap.xml" -Encoding UTF8
